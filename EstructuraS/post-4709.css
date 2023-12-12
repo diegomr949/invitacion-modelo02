@@ -4,20 +4,20 @@
 }
 
 /* Estilos generales para la imagen */
-.elementor-4709 .elementor-element.elementor-element-d03c7ea:not(.elementor-motion-effects-element-type-background),
-.elementor-4709 .elementor-element.elementor-element-d03c7ea>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background: url("EstructuraS/pareja3.jpg") center/cover no-repeat;
-    height: 100vh;
-    margin: 0;
+.elementor-4709 .elementor-element.elementor-element-d03c7ea img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
-/* Estilos para pantallas más pequeñas (ej. celulares) */
+/* Estilos adicionales para pantallas más pequeñas (ej. celulares) */
 @media (max-width: 767px) {
-    .elementor-4709 .elementor-element.elementor-element-d03c7ea:not(.elementor-motion-effects-element-type-background),
-    .elementor-4709 .elementor-element.elementor-element-d03c7ea>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        background-position: top center; /* Cambia la posición de la imagen para ajustarse mejor en pantallas pequeñas */
+    .elementor-4709 .elementor-element.elementor-element-d03c7ea img {
+        /* Agrega estilos adicionales según sea necesario para pantallas más pequeñas */
     }
 }
+
 
 .elementor-4709 .elementor-element.elementor-element-d03c7ea,
 .elementor-4709 .elementor-element.elementor-element-d03c7ea::before {
